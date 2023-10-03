@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(($POWR / $DIVIDE))
+echo "scale=2; $POWER / $DIVIDE" | bc
